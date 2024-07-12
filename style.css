@@ -21,7 +21,9 @@ body {
     transform: translateY(20vh);
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 3vw;
+    height: 20vh;
     flex:1;
     background-color: rgba(163, 127, 81, 0.432);
 }
@@ -29,10 +31,10 @@ body {
 .logobar h1 {
     color: white;
     max-width: 20vw;
-    font-size: 24px;
+    font-size: 32px;
 }
 .logobar img {
-    width: 5rem;
+    width: 7rem;
     color: white;
 }
 
