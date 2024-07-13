@@ -172,6 +172,8 @@ body {
     .forminput {
         align-self: center;
         display: flex;
+        height: fit-content;
+        padding-bottom: 5vh;
         flex-direction: column;
         justify-content: center;
         background-color: #FFF2D7;
@@ -179,6 +181,7 @@ body {
     }
 
     .formouterup {
-        height: auto;
+        height:auto;
+        background-color: #D8AE7E;
     }
 }
