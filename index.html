@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
     <title>Sign Up!</title>
 </head>
 <body>
@@ -14,14 +15,16 @@
         </div>
     </div>
     <div class="formside">
+        <div class="formouterup">
         <h4>Are you tired of those pesky squirrels invading our parks and stealing our treats? 
             Join the Canine Corps today! As a proud member of our elite team, you'll protect our 
             beloved territory, enjoy top-notch training, and earn the respect and admiration of your
              fellow dogs. It's time to stand up for our rights and ensure a safe, treat-filled future
               for all canines. Enlist now and become a hero in the Canine Corps!</h4>
-        <div class="forminput">
+             </div>  
+             <div class="forminput">
             <h4>Become a dog soldier now!</h4>
-            <form action="signup" method="post">
+            <form action="signup" method="post" id="form">
                 <div class="inputfield">
                     <p>FIRST NAME</p>
                 <label for="firstname"></label>
@@ -53,6 +56,10 @@
                     <input type="password" name="passwordconf" id="passwordconf" required>
                     </div>
             </form>
+        </div>
+        <div class="formouterup">
+            <button type="submit" id="submit">Join Now!</button>
+            <p>Already a member? <a>Log in.</a></p>
         </div>
     </div>
     
