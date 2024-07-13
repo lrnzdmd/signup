@@ -78,6 +78,11 @@ body {
     font-size: 16px;
 }
 
+.formouterup h4 {
+    align-self: center;
+    max-width: 75%;
+}
+
 
 .forminput {
     align-self: center;
@@ -134,7 +139,6 @@ body {
         display:flex;
         justify-content: center;
         align-items: center;
-        
     }
 
     .logobar {
@@ -144,7 +148,7 @@ body {
         align-items: center;
         height: 60vh;
         flex:1;
-        background-color: rgba(163, 127, 81, 0.432);
+        background-color: #d8ae7e65;
     }
     
     .logobar h1 {
@@ -158,7 +162,7 @@ body {
     }
 
     .formside {
-        background-color:rgb(163, 127, 81);
+        background-color:#D8AE7E;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -170,7 +174,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: antiquewhite;
+        background-color: #FFF2D7;
         box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
     }
 
