@@ -27,7 +27,7 @@ body {
     gap: 3vw;
     height: 20vh;
     flex:1;
-    background-color: rgba(163, 127, 81, 0.432);
+    background-color: #d8ae7e50;
 }
 
 .logobar h1 {
@@ -41,7 +41,7 @@ body {
 }
 
 .formside {
-    background-color:rgb(163, 127, 81);
+    background-color:#D8AE7E;
     height: 100vh;
     width: 60vw;
     display: flex;
@@ -59,8 +59,8 @@ body {
     border-radius: 5px;
     padding: 0.8rem 2rem 0.8rem 2rem;
     width: 30%;
-    border: 1px solid rgb(218, 184, 156);
-    background-color: rgba(212, 175, 126, 0.747);
+    background-color: #F8C794;
+    border: 1px solid #FFE0B5;
     margin-top: 2rem;
     margin-left: 2rem;
 }
@@ -70,7 +70,7 @@ body {
     font-size: 14px;
 }
 .formouterup a {
-    color:rgb(218, 184, 156);
+    color:#FFE0B5;
 }
 
 .formside > h4 , .formouterup h4 {
@@ -84,7 +84,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5vh;
-    background-color: antiquewhite;
+    background-color: #FFF2D7;
     width:100%;
     height: 40vh;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
@@ -113,16 +113,11 @@ body {
 }
 
 .inputfield input {
-    background-color: rgba(189, 146, 90, 0.295);
+    background-color: #ffe0b58c;
     border: none;
-    border-bottom: 1px solid rgba(150, 120, 80, 0.747);
+    border-bottom: 1px solid #D8AE7E;
 }
 
-.forminput button {
-    background-color: rgba(189, 146, 90, 0.295);
-    border: 1px solid rgba(150, 120, 80, 0.747);
-    
-}
 
 @media only screen and (max-width: 768px) {
     body {
