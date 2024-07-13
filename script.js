@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
 function submitForm() {
     let form = document.getElementById("form");
-    if (form.checkValidity()) {
-        form.submit();
+    if (form.checkValidity() && form.elements["password"].value === form.elements["passwordconf"].value) {
+        return;
     }
     else {
-        alert("Please fill out all the required fields correctly")
+        alert("Please fill out all the required fields correctly");
     }
 }
